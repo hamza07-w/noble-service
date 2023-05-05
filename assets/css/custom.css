@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Source+Sans+Pro:wght@700&display=swap');
+
+.hero {
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 60vh !important;
+}
+
+.hero button {
+    background-color: #14a800 !important;
+}
+
+.home .carousel {
+    max-height: 700px !important;
+    overflow: hidden;
+}
+
+#header.header-scrolled {
+    background: rgba(255, 255, 255, 0.9) !important;
+    padding: 12px 0;
+}
+
+.mobile-nav-toggle, .navbar a {
+    color: #14a800 !important;
+}

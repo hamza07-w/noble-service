@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Noble Service - Home</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="noble service" name="description">
+  <meta content="noble service;Traslochi;Pulizia;Pittura;Piccoli Lavori" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/1659292434317png" rel="icon">
@@ -22,6 +22,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: DevFolio
@@ -46,9 +47,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#about">Di</a></li>
           <li><a class="nav-link scrollto" href="#services">Servizi</a></li>
-          <li><a class="nav-link scrollto " href="#work">Lavoro</a></li>
+          <li><a class="nav-link scrollto " href="#work">Galleria</a></li>
           <li><a class="nav-link scrollto " href="#blog">Aggiornamenti</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contatto</a></li>
         </ul>
@@ -59,19 +59,24 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/works/6.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">Benvenuto al Noble Service</h1>
+          <div class="hero-title mt-5">
+            <a href="https://api.whatsapp.com/send?phone=393203236603&text=from:coming-noble-service" class="btn btn-lg btn-success">
+              <i class="bi bi-whatsapp"></i> whatsapp
+            </a>
+          </div>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Giardinaggio, Pittura, Pulizie, Traslochi, Piccoli lavori"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
     </div>
-  </div><!-- End Hero Section -->
+  </div>
+
 
   <main id="main">
 
@@ -82,21 +87,17 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="about-img">
-                        <img src="assets/img/1659292434317.png" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="about-img">
+                    <img src="assets/img/works/9.jpg" class="img-fluid rounded b-shadow-a" alt="">
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-lg-6">
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
-                      <h5 class="title-left">
-                        Noble Service
-                      </h5>
+                      <div class="about-img">
+                        <img src="assets/img/1659292434317.png"  class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
                     </div>
                     <p class="lead">
                       L'Impresa di Pulizie Noble Service si rivolge a privati e aziende che necessitano lavori di pulizie professionali per condomini, case private, uffici, aziende, hotel e studi medici, compresi i servizi di pulizia di vetrate e lucidatura pavimenti.L'azienda si occupa anche di pulizia e manutenzione di tombe di famiglia
@@ -109,6 +110,41 @@
         </div>
       </div>
     </section><!-- End About Section -->
+
+    <section class="home">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/works/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/works/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/works/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/works/6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services-mf pt-5 route">
@@ -132,9 +168,9 @@
                 </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Giardinaggio</h2>
+                <a href=""><h2 class="s-title">Giardinaggio</h2></a>
                 <p class="s-description text-center">
-                  Il nostro servizio di giardinaggio è progettato per offrirti uno spazio esterno bello e salutare che valorizzi l'aspetto della tua casa. Il nostro team di giardinieri esperti lavorerà con te per creare un piano di giardinaggio personalizzato che soddisfi le tue preferenze specifiche.
+                  Il nostro servizio di giardinaggio crea uno spazio esterno bello e salutare che valorizza l'aspetto della tua casa. Il nostro team di esperti lavora con te per sviluppare un piano di giardinaggio personalizzato.Ci impegniamo a fornire un servizio di alta qualità per garantire la soddisfazione del cliente.
                 </p>
               </div>
             </div>
@@ -277,7 +313,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Noble Service</h2>
                     <div class="w-more">
-                      <span class="w-ctegory"><span class="w-date">13 Oct. 2022</span>
+                      <span class="w-ctegory"><span class="w-date">19 Sep. 2022</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -325,7 +361,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Noble Service</h2>
                     <div class="w-more">
-                      <span class="w-ctegory"><span class="w-date">13 Oct. 2022</span>
+                      <span class="w-ctegory"><span class="w-date">4 Apr. 2022</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -349,7 +385,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Noble Service</h2>
                     <div class="w-more">
-                      <span class="w-ctegory"><span class="w-date">13 Oct. 2022</span>
+                      <span class="w-ctegory"><span class="w-date">5 Aut. 2022</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -468,7 +504,7 @@
                   </div>
                 </div>
                 <p class="card-description">
-                  Pubblicato il giorno 28 juil. 2022
+                  Pubblicato il giorno juil. 2022
                   Giardinaggio in Austria
                 </p>
               </div>
@@ -494,8 +530,7 @@
                   </div>
                 </div>
                 <p class="card-description">
-                  Top clean Service service offriamo ottimo lavoro di giardinaggio pulizie profonda traslochi in tutta Italia sgombero cantine
-                  Tutto questo con buon prezzo
+                  Ottimo servizio di pulizia
                 </p>
               </div>
               <div class="card-footer">
